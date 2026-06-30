@@ -9,31 +9,40 @@ const advantages = [
   },
   {
     num: "02",
-    title: "SLA-Based Accountability",
-    desc: "Fixed service level agreements with defined KPIs ensure transparency and performance-driven billing at every site.",
+    title: "3-Step Compliance Verification",
+    desc: "Rigorous compliance checks across labour, statutory, and EHS norms save precious time for HR and compliance teams.",
   },
   {
     num: "03",
-    title: "SIS Group Backing",
-    desc: "The financial strength, pan-India presence, and brand trust of a ₹20,059 Cr listed enterprise behind every contract.",
+    title: "Self-Delivered Services",
+    desc: "Direct deployment from the SIS Group ecosystem — no sub-contracting, ensuring consistent quality and accountability.",
   },
   {
     num: "04",
-    title: "Real-Time Visibility",
-    desc: "Live dashboards, IoT-enabled monitoring, and digital reporting give clients complete operational control at all times.",
+    title: "Sustainability & EHS",
+    desc: "Dedicated safety officers, biodegradable materials, energy audits, and ESG-aligned practices built into every contract.",
   },
   {
     num: "05",
-    title: "Trained Workforce",
-    desc: "320K+ permanent staff trained on proprietary M-Trainer platform ensuring skills, compliance, and service consistency.",
+    title: "SLA-Based Accountability",
+    desc: "Fixed service level agreements with defined KPIs ensure transparency and performance-driven billing.",
   },
   {
     num: "06",
-    title: "Pan-India Reach",
-    desc: "Operational presence across 29 states, 630+ districts and 368 offices enables truly seamless national deployments.",
+    title: "Technology & Innovation",
+    desc: "Proprietary platforms (One Point App, iOPS, FACTECH) deliver real-time dashboards, e-checklists, and predictive maintenance.",
   },
+  // {
+  //   num: "07",
+  //   title: "Multi-Level Governance",
+  //   desc: "Structured review cadence: site-level weekly, monthly operational reviews, and quarterly business reviews with leadership.",
+  // },
+  // {
+  //   num: "08",
+  //   title: "Proven Track Record",
+  //   desc: "Trusted by 289 of Nifty 500 companies. Demonstrated savings of up to 5% Y-o-Y and ₹2.5 Cr over contract periods.",
+  // },
 ];
-
 export default function OneSISAdvantage() {
   return (
     <section style={{ backgroundColor: "#f0f0ee" }} className="py-20 md:py-28">
@@ -110,7 +119,7 @@ export default function OneSISAdvantage() {
               >
                 {/* Big watermark number */}
                 <span
-                  className="absolute top-4 left-7 select-none pointer-events-none"
+                  className="absolute top-1 left-7 select-none pointer-events-none"
                   style={{
                     fontFamily: "var(--font-playfair)",
                     fontSize: 64,

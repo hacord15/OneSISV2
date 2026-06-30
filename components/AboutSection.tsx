@@ -5,22 +5,29 @@ import Link from "next/link";
 const cards = [
   {
     id: "01",
-    title: "100% Self-Delivered",
-    desc: "Services delivered directly — not sub-contracted — ensuring consistent quality and full accountability at every touchpoint.",
+    title: "100% SIS Group Entity",
+    desc: "Fully owned and backed by India's #1 Security & FM group.",
     dark: true,
     full: true,
   },
   {
     id: "02",
-    title: "Technology-First",
-    desc: "Proprietary platforms including One Point App, iOPS, FACTECH, and M-Trainer power every operation.",
+    title: "Founded 2023–24",
+    desc: "Built for the next generation of integrated facility services.",
     dark: false,
     full: false,
   },
   {
     id: "03",
-    title: "Founded 2023–24",
-    desc: "Built for the next generation of integrated facility services in India's evolving commercial landscape.",
+    title: "Technology-First",
+    desc: "Proprietary platforms: One Point App, iOPS, FACTECH, M-Trainer.",
+    dark: false,
+    full: false,
+  },
+  {
+    id: "04",
+    title: "Self-Delivered",
+    desc: "Services delivered directly — not sub-contracted — ensuring quality.",
     dark: false,
     full: false,
   },
@@ -127,7 +134,7 @@ export default function AboutSection() {
                   fontFamily: "var(--font-inter)",
                   fontSize: 11,
                   letterSpacing: "0.1em",
-                  color: "#A12329",
+                  color: "#e8bec1",
                   display: "block",
                   marginBottom: 14,
                 }}
@@ -145,7 +152,7 @@ export default function AboutSection() {
                   lineHeight: 1.3,
                 }}
               >
-                100% Self-Delivered
+                100% SIS Group Entity
               </h3>
               <p
                 style={{
@@ -155,13 +162,12 @@ export default function AboutSection() {
                   lineHeight: 1.75,
                 }}
               >
-                Services delivered directly — not sub-contracted — ensuring
-                consistent quality and full accountability at every touchpoint.
+               Fully owned and backed by India's #1 Security & FM group.
               </p>
             </div>
 
             {/* Cards 02 & 03 — bottom row */}
-            <div className="grid grid-cols-2 gap-[2px]">
+            <div className="grid grid-cols-3 gap-[2px]">
               {cards.slice(1).map((card) => (
                 <div
                   key={card.id}

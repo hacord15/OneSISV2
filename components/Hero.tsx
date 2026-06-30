@@ -49,7 +49,7 @@ export default function Hero() {
         <div className="max-w-[620px] w-full py-20 md:py-28 lg:py-32 text-left">
 
           {/* Tag line */}
-          <div className="flex items-center gap-3 mb-8 md:mb-10">
+          {/* <div className="flex items-center gap-3 mb-8 md:mb-10">
             <span
               style={{
                 fontFamily: "var(--font-inter)",
@@ -70,7 +70,7 @@ export default function Hero() {
                 flexShrink: 0,
               }}
             />
-          </div>
+          </div> */}
 
           {/* Heading */}
           <h1
@@ -117,9 +117,9 @@ export default function Hero() {
             India's #1{" "}
             <span style={{ color: "#e0a0a4" }}>business</span> services
             group.{" "}
-            <span style={{ color: "#e0a0a4" }}>
+            {/* <span style={{ color: "#e0a0a4" }}>
               Transform. Reduce. Enable. Enhance.
-            </span>
+            </span> */}
           </p>
 
           {/* Buttons */}

@@ -7,7 +7,7 @@ import Link from "next/link";
 const techItems = [
   {
     label: "One Point App",
-    sub: "FIELD OPERATIONS",
+    sub: "Single platform for real-time performance monitoring across all service lines and sites.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A1232B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
@@ -16,8 +16,8 @@ const techItems = [
     ),
   },
   {
-    label: "iOPS",
-    sub: "INTEGRATED OPS",
+    label: "iOPS App",
+    sub: "Operational tracking of Tier 2 staff and key performance metrics.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A1232B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
@@ -27,8 +27,8 @@ const techItems = [
     ),
   },
   {
-    label: "FACTECH",
-    sub: "FM PLATFORM",
+    label: "FACTECH / CMMS",
+    sub: "Preventive & predictive maintenance, asset tracking, e-checklist, complaint management.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A1232B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
@@ -37,8 +37,8 @@ const techItems = [
     ),
   },
   {
-    label: "M-Trainer",
-    sub: "WORKFORCE L&D",
+    label: "E-Attendence",
+    sub: "Aadhaar authentication & bank account verification for seamless digital on-boarding.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A1232B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
@@ -178,7 +178,7 @@ export default function Technology() {
             {techItems.map((tech, i) => (
               <div
                 key={i}
-                className="flex flex-col items-center justify-center gap-4 py-10 px-4 text-center transition-all duration-300"
+                className="flex flex-col items-center justify-center gap-4 py-10 px-4 text-left transition-all duration-300"
                 style={{
                   background: "linear-gradient(165deg, rgba(247,247,247,0.92), rgba(247,247,247,0.8))",
                   cursor: "default",
